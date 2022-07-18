@@ -1,2 +1,3 @@
-# Frontend-Mentor-solution-of-challenges
-Solucion a los retos de Frontend Mentor
+# Qr code component
+
+Solucion de reto de Frontend Mentor

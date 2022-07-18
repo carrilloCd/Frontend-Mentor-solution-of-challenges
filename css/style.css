@@ -1,0 +1,64 @@
+/************************* Custom Properties  *************************/
+:root {
+  --white-color: hsl(0, 0%, 100%);
+  --light-gray-color: hsl(212, 45%, 89%);
+  --grayish-blue-color: hsl(220, 15%, 55%);
+  --dark-blue-color: hsl(218, 44%, 22%);
+  --font-size: 15px;
+  --font-family:'Outfit', sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+/************************* Reset *************************/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/************************* Base *************************/
+body {
+  margin: 0;
+  width: 100%;
+  background-color: var(--light-gray-color);
+  font-family: var(--font-family);
+}
+
+/************************* Component *************************/
+.qr {
+  margin: 100px auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  max-width: 375px;
+  min-width: 360px;
+  background-color: var(--white-color);
+}
+
+.qr__img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+
+.qr__content {
+  padding: 1rem;
+}
+
+.qr__title {
+  color: var(--dark-blue-color);
+  font-weight: var(--font-weight-bold);
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.qr__description {
+  color: var(--grayish-blue-color);
+  font-weight: var(--font-weight-regular);
+  text-align: center;
+  font-size: 1.2rem;
+}
